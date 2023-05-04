@@ -1,0 +1,29 @@
+<?php
+
+namespace DummyNamespace;
+
+use App\Core\Repositories\BaseRepository;
+
+class DummyClass extends BaseRepository
+{
+    /**
+     * Get the model of repository
+     *
+     * @return string
+     */
+    public function getModel()
+    {
+        return ;
+    }
+
+    /**
+     * Get list of filterable fields
+     *
+     * @return array
+     */
+    public function filterableFields()
+    {
+        return [
+        ];
+    }
+}

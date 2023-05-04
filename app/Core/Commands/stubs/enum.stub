@@ -1,0 +1,9 @@
+<?php
+
+namespace DummyNamespace;
+
+use App\Enums\BaseEnum;
+
+final class DummyClass extends BaseEnum
+{
+}

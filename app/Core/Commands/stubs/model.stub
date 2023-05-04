@@ -1,0 +1,32 @@
+<?php
+
+namespace DummyNamespace;
+
+use Illuminate\Database\Eloquent\Model;
+
+class DummyClass extends Model
+{
+    /**
+     * @inheritDoc
+     */
+    protected $fillable = [];
+
+    /**
+     * @inheritDoc
+     */
+    protected $casts = [];
+
+    ####################
+    ### Vitual Attributes
+    ####################
+
+
+    ####################
+    ### Helper Methods
+    ####################
+
+
+    ####################
+    ### Relations
+    ####################
+}

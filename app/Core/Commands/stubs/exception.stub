@@ -1,0 +1,21 @@
+<?php
+
+namespace DummyNamespace;
+
+use App\Core\Exceptions\BaseException;
+
+/**
+ * @method static \Throwable enter_method_name()
+ */
+class DummyClass extends BaseException
+{
+    /**
+     * Get prefix of code
+     *
+     * @return string
+     */
+    protected static function getPrefix()
+    {
+        return 'DummyPrefix';
+    }
+}
